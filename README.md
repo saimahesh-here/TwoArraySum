@@ -48,16 +48,20 @@ Traverse the array, and for each element, calculate its complement (target - num
 Check if the complement exists in the hash map.
 If found, return the indices of the current element and the complement.
 If not, add the current element to the hash map for future reference.
-Complexity
+
+#Complexity
+
 Time Complexity: O(n), where n is the number of elements in the array. Each element is processed at most twice.
 Space Complexity: O(n) for storing elements in the hash map.
-Example Usage
+
+#Example Usage
 Input
 Enter the size of the array: 4
 Enter the elements of the array: 2 7 11 15
 Enter the target value: 9
 Output
 Indices of numbers that add up to the target: [0, 1]
-Challenges Faced
+
+#Challenges Faced
 Understanding Input Constraints: Ensured that the array size and target are handled appropriately.
 Efficient Algorithm: Chose a hash map to achieve O(n) complexity.
